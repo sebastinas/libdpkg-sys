@@ -19,4 +19,4 @@ bindgen = "0.59"
 system-deps = "6.0"
 
 [package.metadata.system-deps]
-libdpkg = "1.20"
+libdpkg = "1.19"

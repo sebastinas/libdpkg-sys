@@ -1,0 +1,24 @@
+#define LIBDPKG_VOLATILE_API
+
+#include <dpkg/ar.h>
+#include <dpkg/arch.h>
+#include <dpkg/deb-version.h>
+#include <dpkg/dpkg-db.h>
+#include <dpkg/dpkg.h>
+#include <dpkg/ehandle.h>
+#include <dpkg/error.h>
+#include <dpkg/namevalue.h>
+#include <dpkg/parsedump.h>
+#include <dpkg/pkg-array.h>
+#include <dpkg/pkg-files.h>
+#include <dpkg/pkg-format.h>
+#include <dpkg/pkg-list.h>
+#include <dpkg/pkg-queue.h>
+#include <dpkg/pkg-show.h>
+#include <dpkg/pkg-spec.h>
+#include <dpkg/pkg.h>
+#include <dpkg/progname.h>
+#include <dpkg/program.h>
+#include <dpkg/tarfn.h>
+#include <dpkg/varbuf.h>
+#include <dpkg/version.h>

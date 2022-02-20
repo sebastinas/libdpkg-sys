@@ -1,6 +1,6 @@
 # Bindings for libdpkg
 
-This crate provides bindings to interact with `libdpkg`. Note that only a part of the public API is available.
+This crate provides bindings to interact with `libdpkg`. Note that only a part of the public API is available driven by my personal needs. I am happy to merge pull requests that expose functions of `libdpkg`'s public API.
 
 This crate is only useful on systems where the development files for `libdpkg` are available. That is, it requires `libdpkg-dev` to be installed.
 

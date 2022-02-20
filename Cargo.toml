@@ -1,7 +1,7 @@
 [package]
 name = "libdpkg-sys"
 description = "Bindings for libdpkg"
-version = "0.1.0+1.20"
+version = "0.1.0+1.19"
 authors = ["Sebastian Ramacher <sebastian@ramacher.at>"]
 repository = "https://github.com/sebastinas/libdpkg-sys"
 license = "LGPL-3.0-or-later"

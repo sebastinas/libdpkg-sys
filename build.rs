@@ -14,7 +14,7 @@ fn main() {
     let bindings = bindgen::Builder::default()
         .header("wrapper.h")
         // Invalidate the built crate whenever any of the included header files changed.
-        .parse_callbacks(Box::new(bindgen::CargoCallbacks))
+        .parse_callbacks(Box::new(bindgen::CargoCallbacks::new()))
         .use_core()
         .blocklist_function("dpkg_set_report_buffer")
         .blocklist_type("(_IO_)?FILE")

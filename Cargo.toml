@@ -15,7 +15,7 @@ categories = ["external-ffi-bindings"]
 [dependencies]
 
 [build-dependencies]
-bindgen = "0.72"
+bindgen = "0.73"
 system-deps = "9.0"
 
 [package.metadata.system-deps]
